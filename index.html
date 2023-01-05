@@ -6,28 +6,28 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!--Заголовок страницы-->
-		<title>My Portfolio</title>
+		<title>Sultan Bakhytzhanov</title>
 		<!--CSS-->
 		<link rel="stylesheet" href="assets/styles/reset.css" />
 		<link rel="stylesheet" href="assets/styles/style.css" />
 		<!--Fonts-->
 		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
 	<body>
-		<div class="vanta" id="intro">
-			<header>
-				<a href="#" class="logo">Logo</a>
+		<header id="intro" style="z-index: 0">
+			<nav style="z-index: 2">
+				<a href="#" class="logo">Hello World!</a>
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
@@ -36,11 +36,76 @@
 					<li><a href="#">Timeline</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
-			</header>
-			<section class="banner"></section>
-		</div>
+			</nav>
+			<section class="me" style="z-index: 1">
+				<img src="assets/images/pfp.jpg" alt="Pfp" />
+				<h1>Sultan Bakhytzhanov</h1>
+				<h2>Student, web-developer</h2>
+				<div class="social">
+					<a
+						href="https://vk.com/chipchilinka_san"
+						target="_blank"
+						title="@chipchilinka_san"
+					>
+						<img src="assets/images/vk.png" alt="vk" />
+					</a>
+					<a
+						href="https://twitter.com/Bakhytzhanov_S"
+						target="_blank"
+						title="@Bakhytzhanov_S"
+					>
+						<img src="assets/images/twitter.png" alt="twitter" />
+					</a>
+					<a
+						href="https://www.facebook.com/SultanKPTK"
+						target="_blank"
+						title="Султан Бахытжанов"
+					>
+						<img src="assets/images/facebook.png" alt="facebook" />
+					</a>
+					<a
+						href="https://www.instagram.com/bakhytzhanov__s/"
+						target="_blank"
+						title="@bakhytzhanov__s"
+					>
+						<img src="assets/images/gram.png" alt="instagram" />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/султан-бахытжанов-4b37b6245/"
+						target="_blank"
+						title="Султан Бахытжанов"
+					>
+						<img src="assets/images/LinkedIn.png" alt="linkedin" />
+					</a>
+					<a
+						href="https://github.com/Sultan-Bakhytzhanov"
+						target="_blank"
+						title="Sultan-Bakhytzhanov"
+					>
+						<img src="assets/images/github.png" alt="github" />
+					</a>
+					<a href="#" target="_blank" title="KatenKyokotsu#5520">
+						<img src="assets/images/discord.png" alt="discord" />
+					</a>
+					<a
+						href="https://steamcommunity.com/id/CyberPsyc/"
+						target="_blank"
+						title="CyberPsyc"
+					>
+						<img src="assets/images/steam.png" alt="steam" />
+					</a>
+					<a
+						href="https://bahytzanovsultan@gmail.com"
+						target="_blank"
+						title="bahytzanovsultan@gmail.com"
+					>
+						<img src="assets/images/gmail.png" alt="mail" />
+					</a>
+				</div>
+			</section>
+		</header>
 
-		<!--JS-->
+		<!--JS/Vanta JS (for bg animation)-->
 		<script src="assets/js/three.min.js"></script>
 		<script src="assets/js/vanta.waves.min.js"></script>
 		<script src="assets/js/script.js"></script>
