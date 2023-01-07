@@ -4,6 +4,7 @@
 	font-family: 'Ubuntu', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 */
 
@@ -12,16 +13,21 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 body,
 html {
 	height: 500vh;
+	position: relative;
+}
+main {
+	position: relative;
 }
 /*Header*/
 header {
 	width: 100%;
 	height: 100vh;
-	font-family: 'Poppins', sans-serif;
+	position: relative;
 }
 /*Navbar*/
 nav {
@@ -103,6 +109,15 @@ nav ul li a {
 	font-family: 'Ubuntu', sans-serif;
 	color: #fff;
 }
+#about {
+	position: absolute;
+	top: 80%;
+}
+#top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+}
 .social {
 	display: flex;
 	justify-content: space-evenly;
@@ -115,4 +130,132 @@ nav ul li a {
 }
 .social img:hover {
 	transform: scale(1.2);
+}
+
+/*About me*/
+
+.about {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 5em;
+	margin-bottom: 5em;
+	font-family: 'Roboto', sans-serif;
+}
+.about > h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+}
+.about > p {
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+.about-cards {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+	margin-top: 7em;
+	margin-left: 15%;
+}
+.about-card {
+	margin: 1em;
+	padding: 1em;
+	width: 30%;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px silver;
+}
+.about-card h2 {
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+.about-card p {
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+/*Skills*/
+
+.skills {
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	font-family: 'Roboto', sans-serif;
+}
+.skills > h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+}
+.skills > p {
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+.skills-cards {
+	width: 70%;
+	margin-left: 15%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.skill-card-1 {
+	width: 50%;
+	height: auto;
+	margin: 1em;
+	padding: 1em;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px silver;
+}
+.skill-card-1-wrapper {
+	margin-top: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.skill-card-1 h2 {
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.skill-card-1 p {
+	text-align: justify;
+	font-size: 1.2em;
+}
+.skill-card-2 {
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.skill-card-2 h2 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	font-weight: 400;
+	text-align: center;
+}
+.skill-card-2 p {
+	text-align: justify;
+	font-size: 1.2em;
+}
+.html,
+.git {
+	width: 100%;
+	height: 50%;
+	margin: 1em;
+	padding: 1em;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px silver;
 }
