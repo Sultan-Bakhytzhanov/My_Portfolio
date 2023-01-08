@@ -30,15 +30,14 @@
 	</head>
 	<body style="z-index: -999999">
 		<header id="intro" style="z-index: 0">
-			<nav style="z-index: 999">
+			<nav style="z-index: 999999">
 				<a href="index.html" class="logo">Hello World!</a>
 				<ul>
 					<li><a href="#top">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Timeline</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<section class="me" style="z-index: 1">
@@ -108,6 +107,7 @@
 					</a>
 				</div>
 				<h6 id="about">about me</h6>
+				<h6 id="skills">skills</h6>
 			</section>
 		</header>
 		<!--Главная часть сайта-->
@@ -213,10 +213,100 @@
 						</div>
 					</div>
 				</div>
+				<h6 id="projects">projects</h6>
 			</section>
 			<!--Мои работы-->
-			<section class="projects"></section>
+			<section class="projects">
+				<h2>Мои работы</h2>
+				<p>
+					Это список моих сайтов, которые я написал за время моего обучения.
+					Первые два были выполнены, как задания в колледже, а остальные я
+					сверстал сам, по шаблону, которые нашел в интернете
+				</p>
+				<div class="projects-wrapper">
+					<div class="project">
+						<div class="project-img">
+							<img src="assets/images/Project-1.png" alt="1" />
+						</div>
+						<h2>My_First_Site</h2>
+						<p>
+							Это самый первый, сделанный мною, сайт. На тот момент я только
+							закончил изучение HTML и мало чего понимал в CSS, но посмотрев
+							пару видеоуроков на ютуб, я узнал о фреймворке Bootstrap, и
+							использовал его на этом сайте
+							<br />
+							<br />
+							Сам сайт представляет из себя небольшую вики-страницу о персонаже
+							из аниме "Блич" - Шихоин Йоруичи.
+							<br />
+							<br />
+							Он состоит из двух страниц. На первой главное изображение и
+							краткое описание, а также ссылки на главную вики страницу, а
+							ссылка на ютуб ведет на эдит, с этим персонажем
+							<br />
+							<br />
+							Вторая страница состоит из фотокарточек и более подробной
+							информации о персонаже
+						</p>
+						<div class="project-btn">
+							<a href="#"> Открыть сайт</a>
+						</div>
+					</div>
+					<div class="project">
+						<div class="project-img">
+							<img src="assets/images/Project-2.png" alt="2" />
+						</div>
+						<h2>Landing_Page_Layout</h2>
+						<p>
+							Это мой более поздний сайт. Я уже лучше пользовался свойствами
+							CSS, и решил сверстать лендинг пейдж, по макету Figma, который
+							нашел в интернете.
+							<br />
+							<br />
+							Правда на тот момент я еще не умел в адаптив, поэтому делал все
+							под разрешение, заданное в макете (1400px в ширину)
+							<br />
+							<br />
+							Сайт представляет собой рекламную страницу, продающую наручные
+							часы
+						</p>
+						<div class="project-btn">
+							<a href="#"> Открыть сайт</a>
+						</div>
+					</div>
+					<div class="project">
+						<div class="project-img">
+							<img src="assets/images/Project-3.png" alt="3" />
+						</div>
+						<h2 id="contact">Restaurant_Site_Layout</h2>
+						<p>
+							Это, на данный момент, лучший сайт, который я делал.
+							<br />
+							<br />
+							Тут я использовал практически все свои познания в HTML и CSS, и
+							добавил адаптивность. То есть страница выглядит одинаково хорошо
+							во всех разрешениях (От 300px до 2560px)
+							<br />
+							<br />
+							Этот сайт ресторана, структура состоит из: Шапки сайта и блоков
+							истории, блюд, меню и поваров.
+							<br />
+							<br />
+							Также здесь имеется "бургер" меню, которое появляется в
+							навигационной панели, если разрешение слишком маленькое, чтобы
+							вместить все его пункты. Но т.к. я не использовал Javascript, то
+							это просто иконка
+						</p>
+						<div class="project-btn">
+							<a href="#"> Открыть сайт</a>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
+
+		<!--Подвал сайта-->
+		<footer></footer>
 
 		<!--JS/Vanta JS (for bg animation)-->
 		<script src="assets/js/three.min.js"></script>
