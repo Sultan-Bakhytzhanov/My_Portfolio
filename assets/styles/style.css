@@ -29,6 +29,11 @@ main {
 	position: relative;
 	color: #1b1b1b;
 }
+.about,
+.skills,
+.projects {
+	background-color: #fff;
+}
 
 /*Header*/
 
@@ -210,6 +215,7 @@ nav ul li a {
 	height: auto;
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
+	padding-top: 3em;
 	margin-bottom: 5em;
 }
 .skills > h2 {
@@ -292,6 +298,7 @@ nav ul li a {
 	width: 100%;
 	height: auto;
 	font-family: 'Roboto', sans-serif;
+	padding-top: 3em;
 }
 .projects > h2 {
 	text-align: center;
