@@ -1,0 +1,38 @@
+@media (max-width: 1100px) {
+  .about-cards {
+    display: block;
+  }
+  .about-card {
+    width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  header nav ul {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav .logo {
+    text-align: center;
+  }
+  .skills-cards {
+    display: block;
+  }
+  .skill-card-1,
+  .skill-card-2 {
+    width: 100%;
+  }
+  .projects h2 {
+    font-size: 1.2em;
+  }
+  .projects p {
+    font-size: 1em;
+  }
+  .project-btn {
+    font-size: 1.1em;
+  }
+  footer ul:nth-child(2) {
+    display: none;
+  }
+}
